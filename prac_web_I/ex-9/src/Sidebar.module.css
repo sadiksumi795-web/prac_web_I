@@ -1,0 +1,34 @@
+.sidebar {
+  width: 240px;
+  flex-shrink: 0;
+  padding: 28px 22px;
+  background: #edf4fa;
+  border-right: 1px solid #e3eaf2;
+}
+
+.sidebar h2 {
+  margin-top: 0;
+  color: #173b67;
+}
+
+.sidebar a {
+  display: block;
+  margin: 12px 0;
+  padding: 10px 12px;
+  color: #285b83;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.sidebar a:hover {
+  color: #173b67;
+  background: #dceaf5;
+}
+
+@media (max-width: 600px) {
+  .sidebar {
+    width: 100%;
+    border-right: 0;
+    border-bottom: 1px solid #e3eaf2;
+  }
+}
